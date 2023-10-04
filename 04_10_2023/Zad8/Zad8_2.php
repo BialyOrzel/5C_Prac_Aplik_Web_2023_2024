@@ -17,8 +17,6 @@
             echo "Liczba 1 jest równa liczbie 3 ($liczba1 = $liczba3)";
         }elseif($liczba2 == $liczba3){
             echo "Liczba 2 jest równa liczbie 3 ($liczba2 = $liczba3)";
-        }elseif($liczba3 == $liczba2){
-            echo "Liczba 3 jest równa liczbie 2 ($liczba3 = $liczba2)";
         }else{
             echo"Nie ma liczb równych ($liczba1), ($liczba2), ($liczba3)";
         }
