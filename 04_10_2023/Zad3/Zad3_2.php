@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Zad1_2</title>
+    <title>Zad3_2</title>
 </head>
 <body>
     <?php
