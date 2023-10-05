@@ -6,10 +6,17 @@
 </head>
 <body>
     <?php
-        $liczba1 = $_POST["liczba1"];
-        $liczba2 = $_POST["liczba2"];
-        $liczba3 = $_POST["liczba3"];
-        while
+        $x = $_POST["x"];
+        $y = $_POST["y"];
+        echo "<table>";
+        for($i = 0; $i < $x; $i++){
+            echo "<tr>";
+            for($j = 0; $j < $y; $j++){
+                echo"<td style = 'border:1px solid gray; width:20px; height:20px;' ></td>";
+            }
+            echo "</tr>";
+        }
+        echo "</table>";
     ?>
 </body>
 </html>
