@@ -12,7 +12,7 @@
         <input type="text"name="tytul"><br>
         <label for="">Podaj nowega reżysera</label><br>
         <input type="text"name="rez"><br>
-        <label for="">Podaj nową długość filmu</label><br>
+        <label for="">Podaj nową długość filmu(min)</label><br>
         <input type="text"name="czas"><br>
         <input type="submit" value="Wyślij">
     </form>
