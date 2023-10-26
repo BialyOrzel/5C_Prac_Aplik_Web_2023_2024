@@ -1,5 +1,5 @@
 <?php
-    $czas = time() + 60*60*24;
+    $czas = time() + 60*60*;
     if(!isset($_COOKIE['czas'])){
         setcookie("czas", $czas);
     }
