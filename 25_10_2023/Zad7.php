@@ -1,13 +1,20 @@
 <?php
-    if(!isset($_COOKIE['hits'])){
-        $ile = 1;
-    }else{
-        $ile = (int)$_COOKIE['hits'];
-        if($ile < 1)
-            $ile = 1;
-        $ile++;
+    $czas = time() + 60*60*24;
+    if(!isset($_COOKIE['czas'])){
+        setcookie("czas", $czas);
     }
-    setcookie("hits","$ile");
+    if(!isset($_COOKIE['odwiedziny'])){
+        $ile = 1;
+    }else if(time()> $_COOKIE['czas']){
+        $ile = (int)$_COOKIE['odwiedziny'];
+        if($ile < 1){
+            $ile = 1;
+        }
+        $ile++;
+        setcookie("czas", $czas);
+    }else{
+        $ile = (int)$_COOKIE['odwiedziny'];}
+    setcookie("odwiedziny","$ile");
 ?>
 <!DOCTYPE html>
 <html lang="pl">
