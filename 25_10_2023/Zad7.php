@@ -1,5 +1,5 @@
 <?php
-    $czas = time() + 60*60*;
+    $czas = time() + 60*60;
     if(!isset($_COOKIE['czas'])){
         setcookie("czas", $czas);
     }
@@ -27,6 +27,7 @@
     <?php
         if($ile == 1){
             $str = "raz";
+            echo "Witamy, odwiedziłeś nas $ile $str.";
         }else{
             $str = "razy";
             echo "Witamy, odwiedziłeś nas $ile $str.";
