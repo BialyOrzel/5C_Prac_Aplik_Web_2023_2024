@@ -41,6 +41,6 @@ table{
     border-collapse: collapse;
 }
 td,th{
-    border: 1px, solid, RGB(192,192,192);
+    border: 1px solid RGB(192, 192, 192);
     padding: 5px;
 }
