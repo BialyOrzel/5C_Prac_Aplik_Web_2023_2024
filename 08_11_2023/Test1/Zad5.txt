@@ -1,0 +1,3 @@
+Instrukcja switch jest często bardziej wygodna niż ciągła seria instrukcji if-else w przypadku.
+Czytelność kodu: Instrukcja switch jest zwykle czytelniejsza niż długa seria instrukcji if-else, szczególnie w przypadku wielu porównań. Switch ułatwia zrozumienie, jakie działania zostaną wykonane dla różnych wartości.
+Skrócony kod: Switch może pomóc skrócić kod. Zamiast wielokrotnie używać if-else, wystarczy jedna instrukcja switch.
