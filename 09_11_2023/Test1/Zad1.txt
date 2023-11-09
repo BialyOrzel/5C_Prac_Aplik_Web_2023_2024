@@ -1,0 +1,3 @@
+Powtarzalność kodu: Pętle pozwalają na wielokrotne wykonanie tego samego fragmentu kodu, co eliminuje potrzebę wielokrotnego przepisywania tego samego kodu.
+Czytelność kodu: Pętle mogą sprawić, że kod staje się bardziej czytelny, zwłaszcza gdy mamy do czynienia z powtarzalnymi operacjami.
+Skracanie czasu pracy: Automatyzacja powtarzalnych zadań za pomocą pętli może znacząco skrócić czas potrzebny do napisania programu.
