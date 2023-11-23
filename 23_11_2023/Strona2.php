@@ -1,10 +1,10 @@
 <?php
 session_start();
 if($_SESSION['login'] == 1){
-    header("Location: C:\xampp\htdocs\AW\5C_Prac_Aplik_Web_2023_2024\23_11_2023\podstrona1a.php");
+    header("Location: podstrona1a.php");
     exit();
 }else{
-    header("Location: C:\xampp\htdocs\AW\5C_Prac_Aplik_Web_2023_2024\23_11_2023\podstrona1.php");
+    header("Location: podstrona1.php");
     exit();
 }
     include "podstrona1.php";
