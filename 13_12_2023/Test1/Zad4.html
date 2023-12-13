@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <script>
+        function cos(){
+            let nazw = document.getElementById("nazw").value;
+            let imie = document.getElementById("imie").value;
+            let mail = document.getElementById("mail").value;
+            if(nazw == ""){
+                document.getElementById("p1").innerHTML = "Pole nazwisko jest puste.";
+            }
+            if(imie == ""){
+                document.getElementById("p2").innerHTML = "Pole imie jest puste.";
+            }
+            if(mail == ""){
+                document.getElementById("p3").innerHTML = "Pole e-mail jest puste.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="nazw">Podaj nazwisko:<input id="nazw"  type="text"></label><br>
+        <label for="imie">Podaj imie:<input id="imie"  type="text"></label><br>
+        <label for="mail">Podaj e-mail:<input id="mail"  type="text"></label><br>
+        <input type="button" onclick= "cos()" value="Oblicz"><br>
+    </form>
+    <p id = "p1"></p>
+    <p id = "p2"></p>
+    <p id = "p3"></p>
+</body>

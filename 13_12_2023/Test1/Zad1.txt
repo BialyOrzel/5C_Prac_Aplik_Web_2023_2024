@@ -1,0 +1,20 @@
+
+Zalety:
+1.Szybka reakcja na błędy: Walidacja po stronie klienta umożliwia szybką reakcję na błędy bez konieczności przesyłania danych na serwer. Użytkownik otrzymuje informacje o błędach natychmiast po próbie przesłania formularza.
+
+2.Oszczędność zasobów serwera: Ponieważ walidacja odbywa się po stronie klienta, serwer nie musi obsługiwać nieprawidłowych danych, co przyczynia się do oszczędności zasobów serwera.
+
+3.Lepsze wrażenia użytkownika: Dzięki natychmiastowej informacji o błędach użytkownik może szybko dostosować swoje dane, co poprawia ogólne wrażenia z korzystania z witryny.
+
+4.Redukcja obciążenia sieci: Mniejsza ilość danych przesyłanych między klientem a serwerem dzięki walidacji po stronie klienta przyczynia się do redukcji obciążenia sieci.
+
+Wady:
+1.Brak zaufania do klienta: Walidacja po stronie klienta jest podatna na manipulacje ze strony użytkownika. Nie można ufać danym, które nie zostały zweryfikowane po stronie serwera.
+
+2.Zależność od przeglądarki: Różne przeglądarki mogą interpretować i obsługiwać walidację po stronie klienta w inny sposób, co może prowadzić do niejednolitego zachowania formularza.
+
+3.Możliwość wyłączenia walidacji: Użytkownik może dezaktywować lub omijać walidację po stronie klienta, co stwarza ryzyko przesłania błędnych danych na serwer.
+
+4.Zwiększone ryzyko błędów: Ponieważ walidacja odbywa się na różnych platformach i konfiguracjach, istnieje większe ryzyko pojawienia się błędów w logice walidacyjnej.
+
+5.Ograniczone bezpieczeństwo: Dane przesyłane do przeglądarki mogą być podatne na ataki, zwłaszcza jeśli istnieją luki w zabezpieczeniach.

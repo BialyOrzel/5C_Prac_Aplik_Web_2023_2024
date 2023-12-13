@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad5</title>
+    <script>
+        function oblicz(){
+            let nazwa = document.getElementById("nazwa").value;
+            let kod = document.getElementById("kod").value;
+            let mie = document.getElementById("mie").value;
+            let uli = document.getElementById("uli").value;
+            let num = document.getElementById("num").value;
+            let tel = document.getElementById("tel").value;
+            document.getElementById("p").innerHTML = nazwa + " Adres " + " " + kod + " "+ mie +" ul "+ uli +" "+ num +" "+ "Tel. " + tel;
+        }
+        function cos(){
+            document.getElementById("nazwa").value = "ZSE Kielce";
+            document.getElementById("kod").value = "25-317";
+            document.getElementById("mie").value = "Kielce";
+            document.getElementById("uli").value = "Prezydenta Ryszarda Kaczorowskiego";
+            document.getElementById("num").value = "8";
+            document.getElementById("tel").value = "41 368 05 70";
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="nazwa">Podaj nazwę szkoły:<input id="nazwa" type="text"></label><br>
+        <label for="adr">Podaj adres szkoły:<br>
+            -Kod: <input id="kod" type="text"><br>
+            -Miejscowość: <input id="mie" type="text"><br>
+            -Ulica: <input id="uli" type="text"><br>
+            -Numer: <input id="num" type="text"></label><br>
+        <label for="dzie">Podaj telefon do szkoły:<input id="tel" type="text"></label><br>
+        <input type="button" onclick= "oblicz()" value="Oblicz"><br>
+        <input type="button" onclick= "cos()" value="Wyczyść"><br>
+    </form>
+    <p id = "p"></p>
+</body>

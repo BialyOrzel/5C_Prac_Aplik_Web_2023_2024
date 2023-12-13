@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad3</title>
+    <script>
+        function cos(){
+            let rok = document.getElementById("rok").value;
+            let mie = document.getElementById("mie").value;
+            let dzie = document.getElementById("dzie").value;
+            let rokd = 2023;
+            let mied = 12;
+            let dzied = 13;
+            let wiek = (rokd - rok)* 365 + (mied - mie)* 30 + (dzied - dzie);
+            document.getElementById("p").innerHTML = wiek;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="rok">Podaj rok urodzenia:<input id="rok" type="text"></label><br>
+        <label for="mie">Podaj miesiąc urodzenia:<input id="mie" type="text"></label><br>
+        <label for="dzie">Podaj dzień urodzenia:<input id="dzie" type="text"></label><br>
+        <input type="button" onclick= "cos()" value="Oblicz"><br>
+    </form>
+    <p id = "p"></p>
+</body>
