@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad4</title>
+    <script>
+        function cos1(){
+            document.getElementById("p").innerHTML = "Najechałeś kursorem na przycisk";
+        }
+        function cos2(){
+            document.getElementById("p").innerHTML = "Kursor opuścił obszar przycisku";
+        }
+    </script>
+</head>
+<body onload ="cos()">
+    <input type="button" onmouseover="cos1()" onmouseout="cos2()" value="Test">
+    <p id = "p"></p>
+</body>
+</html>

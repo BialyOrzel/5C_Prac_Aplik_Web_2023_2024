@@ -1,0 +1,2 @@
+onMouseOver: To zdarzenie występuje, gdy kursor myszy "wjeżdża" na element HTML.
+onMouseDown: To zdarzenie występuje, gdy użytkownik naciska przycisk myszy (klikając).

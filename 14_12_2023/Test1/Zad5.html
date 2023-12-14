@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad5</title>
+    <script>
+        function cos(){
+            let a = parseInt(document.getElementById("p").innerHTML);
+            a = a + 1;
+            document.getElementById("p").innerHTML = a;
+        }
+    </script>
+</head>
+<body onload ="cos()">
+    <input type="button" onclick="cos()" value="Przycisk">
+    <p id = "p">-1</p>
+</body>
+</html>
